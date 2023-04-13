@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.2rem;
+    font-weight: light;
+    line-height: 1.6rem;
+    max-width: 80ch;
+    background-color: #f5f5f5;
+    color: #111;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+h1, h2 {
+    font-family: 'Megrim', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: underline;
+  color: #111;
+}
+a:hover {
+  text-decoration: none;
+}
+
+p.projects {
+    margin-top: 2rem;
+}
+
+p.projects a {
+    display: inline-block;
+    padding: 2rem 2.1rem;
+    border: 1px solid #111;
+    /* min-width: 20ch; */
+    text-align: center;
+    text-decoration: none;
+}
+
+p.projects a:hover{
+    text-decoration: underline;
+}
+
+p.projects a:nth-child(odd) {
+    background-color: #111;
+    color: #f5f5f5;
+}
+
+img {
+    height: 250px;
+    margin: 0 auto;
+}
